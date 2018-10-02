@@ -1,0 +1,10 @@
+1. Program 
+2. Docs
+	a. Strictly speaking, itertools.chain.from_iterable is faster than list comprehension, but not worth it b/c of overhead of importing a whole module
+	b. Double down rules: You can double down on the first two cards, or after a split. You bet an extra sum equal to or less than your initial bet. You are then dealt one card, and no more.
+	c. Dealing order: first, one face up card to each player starting from left. Then one face up card to dealer. Then one more card to each player, same order. Finally, hole card
+	d. card is burned, without revealing it
+	e. insurance possible when dealer has a face-up ace card
+	f.  If a player receives 21 on the 1st and 2nd card it is considered a "blackjack" and the player is paid out immediately unless dealer also has a blackjack, in which case the hand ties. In the case of a tied score, known as "push" or "standoff", bets are normally returned without adjustment; however, a blackjack beats any hand that is not a blackjack, even one with a value of 21. Wins are paid out at 1:1, or equal to the wager, except for player blackjacks which are traditionally paid at 3:2 (meaning the player receives three dollars for every two bet) or one-and-a-half times the wager.
+3. What impact do you want to have on the world and why? (500 words maximum)
+4. Add Django/Open Source to Resume
